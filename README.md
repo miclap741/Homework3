@@ -27,7 +27,7 @@ make px4_sitl gz_dmmf_drone
 
 Now you can enjoy your pizza flight using the sticks in QGround.
 
-Note: there could be issues with the file baylands.sdf during the launch of Gazebo simulation, in that case it is recommended to set PX4_GZ_WORLD=${PX4_GZ_WORLD:=default} in 4022_gz_dmmf_drone file.
+Note: there could be issues with the baylands.sdf file, during the launch of Gazebo simulation, in that case it is recommended to set PX4_GZ_WORLD=${PX4_GZ_WORLD:=default} in 4022_gz_dmmf_drone file.
 
 ## :arrow_down: Test the force land
 First, perform the preparation steps already seen, opening QGround and three different terminals and ensuring that you have set the source in each one.
